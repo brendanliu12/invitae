@@ -1,9 +1,9 @@
-#Variant Search Coding Assignment from Invitae
+# Variant Search Coding Assignment from Invitae
 
-##Github link
+## Github link
 https://github.com/brendanliu12/invitae
 
-##Live app link
+## Live app link
 http://ec2-18-216-144-242.us-east-2.compute.amazonaws.com:3000/
 
 
@@ -13,8 +13,8 @@ Back-end - Nginx, uWSGI, Connexion/Flask, Pandas Dataframe
 
 Used Pandas dataframe because it is simple to use and operates in memory so response times are fast.
 
-##Instruction on how to launch
-##Backend
+## Instruction on how to launch
+## Backend
 ** Used Ubuntu 18.04
 1. Add apiserver/etc/apiserver.environment file based on /apiserver/etc/apiserver.environment.template
 replaceing the PLACEHOLDER with full path of data variants.tsv.zip file
@@ -41,7 +41,7 @@ API_Test_local.py has a variable localhost in it that needs to be modified depen
 To run first install urllib3 through the command
 *pip install urllib3*.  Then run the test file.
 
-##Rest Endpoints
+## Rest Endpoints
 There are 2 Rest Endpoints
 
 **Get /variant** - finds all the variants on a particular gene
