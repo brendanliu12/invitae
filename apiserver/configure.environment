@@ -1,0 +1,6 @@
+export APISERVER_VENV_PATH=${APISERVER_HOME}/apiserver_env
+export APISERVER_USER=ubuntu
+export APISERVER_GROUP=www-data
+export NGINX_SITES_AVAILABLE_PATH=/etc/nginx/sites-available
+export NGINX_SITES_ENABLED_PATH=/etc/nginx/sites-enabled
+export UWSGI_LOG_PATH=/var/log/uwsgi

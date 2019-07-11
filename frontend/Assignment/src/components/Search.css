@@ -1,0 +1,62 @@
+.AutoCompleteText {
+    width: 200px;
+    border: 1px solid grey;
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.1), 0 2px 4px 1px rgba(0,0,0,0.18);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    textAlign: center;
+    display: inline-block;
+}
+
+.AutoCompleteText input {
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    box-sizing: border-box;
+    outline: none;
+    width: 200px;
+}
+
+.AutoCompleteText ul {
+    list-style-type: none;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 70px;
+    width: 200px;
+    background-color: white;
+    border: 1px solid black;
+
+}
+.AutoCompleteText ul::before {
+    content: "";
+}
+.AutoCompleteText li {
+    padding: 10px 5px;
+    cursor: pointer;
+}
+
+.AutoCompleteText li:hover {
+    text-decoration: underline;
+    background-color: rgba(128, 128, 128, 0.2);
+}
+
+.button {
+    display:inline-block;
+    cursor: pointer;
+    width: 100px;
+    position: absolute;
+    top: 50px;
+    left: 250px;
+    height: 20px;
+}
+
+.button:hover {
+    background: #aaa;
+}
+
+.inputParent {
+    position: relative;
+    padding: 50px;
+}

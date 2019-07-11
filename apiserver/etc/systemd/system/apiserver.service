@@ -1,0 +1,13 @@
+[Unit]
+Description=uWSGI instance to serve apiserver
+After=network.target
+
+[Service]
+User=ubuntu
+Group=www-data
+EnvironmentFile=/etc/apiserver.environment
+WorkingDirectory=/home/ubuntu/invitae/apiserver
+ExecStart=/home/ubuntu/invitae/apiserver/apiserver_env/bin/uwsgi --ini apiserver.ini
+
+[Install]
+WantedBy=multi-user.target
